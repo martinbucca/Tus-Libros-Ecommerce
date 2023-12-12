@@ -1,6 +1,6 @@
 from flask import Flask, request, Response
 from src.interfaces.ecommerce_http_api import EcommerceHttpAPI
-from src.interfaces.ecommerce_system import EcommerceSystem
+from src.ecommerce_system import EcommerceSystem
 from src.interfaces.interface_protocol import Request
 from src.ecommerce.login_system import LoginSystem
 from src.utils.current_date_and_time import CurrentDateAndTimeProvider

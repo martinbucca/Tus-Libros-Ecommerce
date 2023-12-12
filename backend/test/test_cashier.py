@@ -1,7 +1,7 @@
 import unittest
 from src.ecommerce.cart import Cart
 from src.ecommerce.cashier import Cashier
-from src.utils.credit_card import CreditCard
+from src.ecommerce.credit_card import CreditCard
 from src.utils.month_of_year import MonthOfYear
 from test.test_doubles.current_date_and_time_simulator import CurrentDateAndTimeSimulator
 from test.test_doubles.payment_processor_simulator import PaymentProcessorSimulator

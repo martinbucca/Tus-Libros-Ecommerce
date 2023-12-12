@@ -1,4 +1,4 @@
-from src.utils.credit_card import CreditCard
+from src.ecommerce.credit_card import CreditCard
 from src.ecommerce.cart import Cart
 from src.ecommerce.cashier import Cashier
 from src.utils.id import Id

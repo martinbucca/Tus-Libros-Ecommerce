@@ -1,7 +1,7 @@
 import unittest
-from src.utils.credit_card import CreditCard
+from src.ecommerce.credit_card import CreditCard
 from src.utils.month_of_year import MonthOfYear
-from src.interfaces.ecommerce_system import EcommerceSystem
+from src.ecommerce_system import EcommerceSystem
 from src.ecommerce.active_client import ActiveClient
 from src.utils.time import Time
 from test.test_doubles.login_system_simulator import LoginSystemSimulator

@@ -1,7 +1,7 @@
 import unittest
 from src.ecommerce.cashier import Cashier
 from src.interfaces.ecommerce_http_api import EcommerceHttpAPI
-from src.interfaces.ecommerce_system import EcommerceSystem
+from src.ecommerce_system import EcommerceSystem
 from src.interfaces.interface_protocol import Request, Response
 from test.test_doubles.login_system_simulator import LoginSystemSimulator
 from test.test_doubles.current_date_and_time_simulator import CurrentDateAndTimeSimulator

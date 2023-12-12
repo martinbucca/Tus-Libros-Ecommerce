@@ -1,0 +1,21 @@
+{
+  "name": "communication",
+  "version": "1.0.0",
+  "description": "Modulo de comunicación entre la API y los clientes",
+  "main": "build/index.js",
+  "repository": "git@gitlab.com:buenbit/buendolar-communication.git",
+  "author": "maxisuppes <msuppes@eryx.co>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

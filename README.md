@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nn907hFg)
 # Ejercicio TusLibros.com
 
 La editorial “TusLibros” desea actualizar su oferta de ventas de libros permitiendo a sus clientes la posibilidad de comprar de manera on-line. El sistema que tienen actualmente funciona de manera *batch*, de tal manera que reciben archivos con los pedidos y devuelven archivos con los resultados de las compras. Su plan de actualización consta de dos etapas:
